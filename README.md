@@ -3,3 +3,13 @@ This project presents a Remotely Operated Vehicle (ROV) designed for underwater 
 ==============================================================================================================================================================================================================================================
 "This project was carried out by NovaTech, a group of electromechanical engineering students from Esprit School of Engineering."
 
+
+#🧠 Technologies Used:
+
+Python, OpenCV, YOLO (custom-trained model)
+
+ESP32-CAM or USB webcam
+
+Google Colab for model training
+
+Arduino / Embedded systems for control (Lab View )
