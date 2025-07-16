@@ -1,0 +1,10 @@
+!nvidia-smi
+
+# Unzip images to a custom data folder
+!unzip -q /content/dataexam.zip -d /content/custom_data
+
+!pip install ultralytics
+
+from ultralytics import YOLO
+
+!yolo detect train data=/content/custom_data/New_folder/data.yaml model=yolov8m.pt epochs=100 imgsz=640
